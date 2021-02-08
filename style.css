@@ -1,0 +1,71 @@
+body{
+    background:#eeeeee;
+    margin: 0;
+}
+
+/* se centra el encabezado de la pagina, se cambia de fuente y se centra el texto */
+div.header {
+    width: 100%;
+    text-align: center;
+    background: white;
+    font-family: sans-serif;
+}
+/* Para que no exista espacios entre el h1 del encabezado principal y el body de la pagina */
+.header h1{
+    margin: 0;
+}
+/* Para darle una distancia de 2% de la parte derecha del contenedor principal a la frase del encabezado del contenedor y colocar el numero de imagenes a la par */
+#position{
+    margin-left: 2%;
+    float: left;
+}
+
+/* mover hacia la derecha la cantidad de fotos y centrarlo  */
+#position1{
+    margin-left: 85%;
+    color:gray ;
+    position: relative;
+    top: 18px;
+
+}
+
+/* dimensiones y color del contenedor de cada imagen */
+.container{
+     margin: 0 auto;
+     width: 500px;
+     height: 500px;
+     background: white;
+}
+
+/* para que la imagen quepa en las dimensiones del div body1 */
+div.container img{
+    width: 100%;
+    height: 100%;
+}
+
+/* dimensiones del div del encabezado del contenedor de las imagenes */
+.header1{
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    font-family: sans-serif;
+
+}
+
+/* dimensiones del div con la clase body1 */
+.body1{
+     margin: 0 auto;
+     width: 100%;
+     height: 70%;
+
+
+}
+/* dimensiones y colocación del texto al pie de la imagen  */
+.footer{
+     margin: 0 auto;
+     width: 100%;
+     height: auto;
+     display: block;
+     padding-top: 8%;
+
+}
